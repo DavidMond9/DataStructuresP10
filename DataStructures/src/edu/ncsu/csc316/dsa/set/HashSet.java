@@ -45,6 +45,7 @@ public class HashSet<E> extends AbstractSet<E> {
 
     /**
      * Constructs a new HashSet to be used ONLY when testing the data structure
+     * @param isTesting sees if it is testing
      */
     public HashSet(boolean isTesting) {
         // If isTesting is true, this constructor will use our "development version" of
